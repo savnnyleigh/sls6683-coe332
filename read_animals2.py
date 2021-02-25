@@ -2,7 +2,10 @@
 import json
 import random
 
-def breed(parents):
+def breed(parent1, parent2):
+	
+	parents = [parent1, parent2]
+
 	Nanimal = {
 
         	        "head": random.choice(parents)['head'],
@@ -22,16 +25,14 @@ def main():
 	with open('animals.json', 'r') as f:
 		animals = json.load(f)
 
-	parent1 = random.choice(animals)
-	parent2 = random.choice(animals)
-
-	parents = [parent1, parent2]
-
-	newanimal = breed(parents)
-
-	print("Parent one is : ", parent1)
-	print("Parent two is : ", parent2)
+	animal1 = random.choice(animals)
+	animal2 = random.choice(animals)
 	
+	newanimal = breed(animal1,animal2)
+
+	print("Parent one is : ", animal1)
+	print("Parent two is : ", animal2)
+		
 	print("New breed is : ", newanimal)
 
 if __name__ == "__main__":
