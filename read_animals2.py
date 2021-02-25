@@ -1,4 +1,6 @@
+#!/usr/bin/env python3
 
+import sys
 import json
 import random
 
@@ -22,7 +24,7 @@ def breed(parent1, parent2):
 
 def main():
 
-	with open('animals.json', 'r') as f:
+	with open(sys.argv[1], 'r') as f:
 		animals = json.load(f)
 
 	animal1 = random.choice(animals)

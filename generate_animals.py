@@ -1,5 +1,7 @@
 
+#!/usr/bin/env python3
 
+import sys
 import petname
 import random
 import json
@@ -22,7 +24,7 @@ for x in range(20):
 	animals.append(animal)
 
 
-with open('animals.json', 'w') as out:
+with open(sys.argv[1], 'w') as out:
 	json.dump(animals, out, indent = 2)
 
 
