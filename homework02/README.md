@@ -5,14 +5,17 @@ This program builds on previous homework01, where we generated random animals. H
 ## Installation
 
 Pull scripts from GitHub [https://github.com/savnnyleigh/sls6683-coe332/tree/main/homework02]
-
 ```bash
-
+git pull https://github.com/savnnyleigh/sls6683-coe332/tree/main/homework02
 ```
 
 ## Run Scripts Directly
 
-```python
+```bash
+
+python3 generate_animals.py
+
+python3 read_animals2.py 
 
 ```
 
