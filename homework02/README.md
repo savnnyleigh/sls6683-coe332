@@ -13,27 +13,17 @@ Pull scripts from GitHub [https://github.com/savnnyleigh/sls6683-coe332/tree/mai
 ## Run Scripts Directly
 
 ```python
-import foobar
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
 ```
 
 ## Dockerfile
 
 ```python
-import foobar
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
 ```
 
 ## Scripts inside a Container
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Please make sure to update tests as appropriate.
 
 ## Unit Test
-[MIT](https://choosealicense.com/licenses/mit/)
+
