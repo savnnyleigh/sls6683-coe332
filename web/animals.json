@@ -1,0 +1,142 @@
+[
+  {
+    "head": "lion",
+    "body": "killdeer-alpaca",
+    "arms": 8,
+    "legs": 9,
+    "tail": 17
+  },
+  {
+    "head": "raven",
+    "body": "ghost-airedale",
+    "arms": 6,
+    "legs": 6,
+    "tail": 12
+  },
+  {
+    "head": "bull",
+    "body": "hermit-pangolin",
+    "arms": 8,
+    "legs": 6,
+    "tail": 14
+  },
+  {
+    "head": "snake",
+    "body": "caribou-spaniel",
+    "arms": 4,
+    "legs": 3,
+    "tail": 7
+  },
+  {
+    "head": "snake",
+    "body": "zebra-oryx",
+    "arms": 4,
+    "legs": 12,
+    "tail": 16
+  },
+  {
+    "head": "bull",
+    "body": "sturgeon-dodo",
+    "arms": 6,
+    "legs": 12,
+    "tail": 18
+  },
+  {
+    "head": "lion",
+    "body": "worm-falcon",
+    "arms": 2,
+    "legs": 6,
+    "tail": 8
+  },
+  {
+    "head": "bunny",
+    "body": "jackass-grubworm",
+    "arms": 4,
+    "legs": 12,
+    "tail": 16
+  },
+  {
+    "head": "bunny",
+    "body": "parakeet-moray",
+    "arms": 10,
+    "legs": 9,
+    "tail": 19
+  },
+  {
+    "head": "lion",
+    "body": "gorilla-gelding",
+    "arms": 2,
+    "legs": 3,
+    "tail": 5
+  },
+  {
+    "head": "lion",
+    "body": "raccoon-mullet",
+    "arms": 10,
+    "legs": 6,
+    "tail": 16
+  },
+  {
+    "head": "lion",
+    "body": "sunbeam-camel",
+    "arms": 4,
+    "legs": 3,
+    "tail": 7
+  },
+  {
+    "head": "lion",
+    "body": "stork-spaniel",
+    "arms": 8,
+    "legs": 3,
+    "tail": 11
+  },
+  {
+    "head": "bunny",
+    "body": "salmon-crappie",
+    "arms": 6,
+    "legs": 9,
+    "tail": 15
+  },
+  {
+    "head": "lion",
+    "body": "buzzard-condor",
+    "arms": 8,
+    "legs": 12,
+    "tail": 20
+  },
+  {
+    "head": "bunny",
+    "body": "stingray-rattler",
+    "arms": 4,
+    "legs": 6,
+    "tail": 10
+  },
+  {
+    "head": "snake",
+    "body": "whale-stag",
+    "arms": 6,
+    "legs": 3,
+    "tail": 9
+  },
+  {
+    "head": "raven",
+    "body": "chicken-crawdad",
+    "arms": 6,
+    "legs": 12,
+    "tail": 18
+  },
+  {
+    "head": "bunny",
+    "body": "octopus-gnat",
+    "arms": 6,
+    "legs": 3,
+    "tail": 9
+  },
+  {
+    "head": "lion",
+    "body": "terrapin-malamute",
+    "arms": 6,
+    "legs": 3,
+    "tail": 9
+  }
+]
