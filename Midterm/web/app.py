@@ -12,7 +12,6 @@ def get_data():
 	return user_data
 
 rd = redis.StrictRedis(host='redis', port=6409, db=0)
-rd.set('k1', json.dumps(get_data()))
 
 #query a range of dates
 @app.route('/animals/created_on/<string:s_date>/<string:e_date>', methods = ['GET'])
