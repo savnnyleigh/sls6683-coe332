@@ -1,6 +1,12 @@
 version: "3"
 
 services:
+   gen-anim:
+        image: savsmith/midterm:1.0
+        volumes:
+            - . :/data
+        user: "869411:816966"
+        command: generate_animals.py /data/animals.json
    web:
         build: .
         container_name: savsmith-web
