@@ -1,15 +1,18 @@
 version: "3"
 
 services:
-    gen-anim:
-        image: wallen/json-parser:1.0
+   web:
+        build: .
+        container_name: savsmith-web
+        ports:
+           - 5029:5000
         volumes:
-            - ./test:/data
-        user: "827385:815499"
-        command: generate_animals.py /data/animals.json
-    read-anim:
-        image: wallen/json-parser:1.0
+           - ./data/animals.json:/animals.json
+   redis:
+        image: redis:latest
+        container_name: savsmith-redis
+        ports:
+            - 6409:6379
         volumes:
-            - ./test:/data
-        user: "827385:815499"
-        command: read_animals.py /data/animals.json
+            - ./config/redis.conf:/redis.conf
+        command: [ "redis-server", "/redis.conf" ]
