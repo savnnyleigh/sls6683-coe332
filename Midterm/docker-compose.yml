@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+    gen-anim:
+        image: wallen/json-parser:1.0
+        volumes:
+            - ./test:/data
+        user: "827385:815499"
+        command: generate_animals.py /data/animals.json
+    read-anim:
+        image: wallen/json-parser:1.0
+        volumes:
+            - ./test:/data
+        user: "827385:815499"
+        command: read_animals.py /data/animals.json
