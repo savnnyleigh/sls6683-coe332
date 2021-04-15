@@ -1,0 +1,31 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: savsmith-test-deployment
+  labels:
+    username: savsmith
+    env: test
+    app: savsmith-test-redis
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: savsmith-test-redis
+  template:
+    metadata:
+      labels:
+        username: savsmith
+        env: test
+        app: savsmith-test-redis
+    spec:
+      containers:
+        - name: redis-test
+          image: redis:5.0.0 
+          volumeMounts:
+          - name: savsmith-test-pvc
+            mountPath: "/data"
+      volumes:
+      - name: savsmith-test-pvc
+        persistentVolumeClaim:
+          claimName: savsmith-test-pvc

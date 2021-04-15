@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: savsmith-test-flask-deployment
+  labels:
+    app: savsmith-test-flask
+    username: savsmith
+    env: test
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: savsmith-test-flask
+  template:
+    metadata:
+      labels:
+        app: savsmith-test-flask
+        username: savsmith
+        env: test
+    spec:
+      containers:
+        - name: flask-test
+          imagePullPolicy: Always
+          image: savsmith/flask-animals
+          env:
+          - name: FLASK_APP
+            value: "app.py"
+          ports:
+          - name: http
+            containerPort: 5000

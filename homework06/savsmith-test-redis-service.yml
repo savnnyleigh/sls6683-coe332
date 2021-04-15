@@ -1,0 +1,16 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: savsmith-test-service
+  labels:
+    username: savsmith
+    env: test
+spec:
+  type: ClusterIP
+  selector:
+    app: savsmith-test-redis
+  ports:
+  - name: savsmith-test-redis
+    port: 6409
+    targetPort: 6409

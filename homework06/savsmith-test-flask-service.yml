@@ -1,0 +1,16 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: savsmith-test-flask-service
+  labels:
+    username: savsmith
+    env: test
+spec:
+  type: ClusterIP
+  selector:
+    app: savsmith-test-flask
+  ports:
+  - name: savsmith-test-flask
+    port: 5000
+    targetPort: 5000
