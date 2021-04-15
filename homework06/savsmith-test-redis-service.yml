@@ -12,5 +12,5 @@ spec:
     app: savsmith-test-redis
   ports:
   - name: savsmith-test-redis
-    port: 6409
-    targetPort: 6409
+    port: 6379
+    targetPort: 6379
