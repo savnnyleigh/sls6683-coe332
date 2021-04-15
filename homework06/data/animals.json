@@ -1,0 +1,182 @@
+[
+  {
+    "head": "bull",
+    "body": "goldfish-weasel",
+    "arms": 2,
+    "legs": 6,
+    "tail": 8,
+    "created_on": "2021-03-29 22:20:43.622870",
+    "uid": "fb5e8a61-0b9e-4bbe-9492-3495a97d9500"
+  },
+  {
+    "head": "raven",
+    "body": "antelope-elk",
+    "arms": 10,
+    "legs": 3,
+    "tail": 13,
+    "created_on": "2021-03-29 22:20:43.623065",
+    "uid": "bc7f9f25-06ce-4e2b-8272-11713f660b13"
+  },
+  {
+    "head": "bunny",
+    "body": "joey-lemur",
+    "arms": 8,
+    "legs": 9,
+    "tail": 17,
+    "created_on": "2021-03-29 22:20:43.623200",
+    "uid": "e0d2f970-22e1-4175-b95a-a139376ad768"
+  },
+  {
+    "head": "bunny",
+    "body": "silkworm-phoenix",
+    "arms": 2,
+    "legs": 6,
+    "tail": 8,
+    "created_on": "2021-03-29 22:20:43.623287",
+    "uid": "14fa80ef-aa6e-4186-a38d-3bdf29ff77f9"
+  },
+  {
+    "head": "bull",
+    "body": "hagfish-maggot",
+    "arms": 10,
+    "legs": 9,
+    "tail": 19,
+    "created_on": "2021-03-29 22:20:43.623369",
+    "uid": "9dd3c4da-b496-4266-8c4d-9e844e93a2a3"
+  },
+  {
+    "head": "bunny",
+    "body": "mallard-redfish",
+    "arms": 8,
+    "legs": 9,
+    "tail": 17,
+    "created_on": "2021-03-29 22:20:43.623444",
+    "uid": "25c57bb0-5dc4-4d64-b94e-fc50ee2057e1"
+  },
+  {
+    "head": "bull",
+    "body": "walrus-quail",
+    "arms": 4,
+    "legs": 6,
+    "tail": 10,
+    "created_on": "2021-03-29 22:20:43.623515",
+    "uid": "f1174ab8-66c6-4a2e-8178-38ada3676485"
+  },
+  {
+    "head": "snake",
+    "body": "monkfish-badger",
+    "arms": 4,
+    "legs": 6,
+    "tail": 10,
+    "created_on": "2021-03-29 22:20:43.623586",
+    "uid": "e5db96cc-05a1-4ec7-8e0c-1d4e24e9b54a"
+  },
+  {
+    "head": "lion",
+    "body": "mosquito-grubworm",
+    "arms": 4,
+    "legs": 3,
+    "tail": 7,
+    "created_on": "2021-03-29 22:20:43.623659",
+    "uid": "80497cd1-0bd7-4892-9b93-b8864938e9e2"
+  },
+  {
+    "head": "bunny",
+    "body": "kit-zebra",
+    "arms": 6,
+    "legs": 12,
+    "tail": 18,
+    "created_on": "2021-03-29 22:20:43.623730",
+    "uid": "70b4302c-94e4-4e14-953e-fdab5c6d7efd"
+  },
+  {
+    "head": "lion",
+    "body": "goblin-pup",
+    "arms": 4,
+    "legs": 6,
+    "tail": 10,
+    "created_on": "2021-03-29 22:20:43.623828",
+    "uid": "02509d26-74aa-455b-9518-b85094045b47"
+  },
+  {
+    "head": "raven",
+    "body": "porpoise-sponge",
+    "arms": 8,
+    "legs": 3,
+    "tail": 11,
+    "created_on": "2021-03-29 22:20:43.623911",
+    "uid": "0d3bb72c-3410-4a87-8a32-0e845a4e34c3"
+  },
+  {
+    "head": "raven",
+    "body": "toucan-halibut",
+    "arms": 8,
+    "legs": 6,
+    "tail": 14,
+    "created_on": "2021-03-29 22:20:43.623983",
+    "uid": "b95dbf12-af53-42f2-91d5-f50cae46b806"
+  },
+  {
+    "head": "snake",
+    "body": "flounder-dove",
+    "arms": 8,
+    "legs": 9,
+    "tail": 17,
+    "created_on": "2021-03-29 22:20:43.624053",
+    "uid": "b82f316e-ab2c-44ab-b5ce-fd6d8ab9ae84"
+  },
+  {
+    "head": "snake",
+    "body": "scorpion-sunfish",
+    "arms": 2,
+    "legs": 12,
+    "tail": 14,
+    "created_on": "2021-03-29 22:20:43.624154",
+    "uid": "92b8c99b-8f80-4197-b48d-14e82b0d26cb"
+  },
+  {
+    "head": "snake",
+    "body": "gannet-moth",
+    "arms": 6,
+    "legs": 12,
+    "tail": 18,
+    "created_on": "2021-03-29 22:20:43.624234",
+    "uid": "0624895e-a7ce-42a2-9368-56061a4dc9d6"
+  },
+  {
+    "head": "snake",
+    "body": "ocelot-grubworm",
+    "arms": 10,
+    "legs": 12,
+    "tail": 22,
+    "created_on": "2021-03-29 22:20:43.624305",
+    "uid": "70a220dd-6d83-44a7-bea8-4ba8ad3f5f5b"
+  },
+  {
+    "head": "lion",
+    "body": "catfish-guppy",
+    "arms": 10,
+    "legs": 3,
+    "tail": 13,
+    "created_on": "2021-03-29 22:20:43.624376",
+    "uid": "474fbd7d-b1f2-4b3d-a06d-3bc02157a493"
+  },
+  {
+    "head": "bunny",
+    "body": "squirrel-gorilla",
+    "arms": 10,
+    "legs": 9,
+    "tail": 19,
+    "created_on": "2021-03-29 22:20:43.624446",
+    "uid": "99467a1d-d170-4175-ba94-44467ff0eea9"
+  },
+  {
+    "head": "lion",
+    "body": "mule-hedgehog",
+    "arms": 8,
+    "legs": 9,
+    "tail": 17,
+    "created_on": "2021-03-29 22:20:43.624516",
+    "uid": "8e96e8fa-a05d-4f49-bb13-6aa6d07d21d5"
+  }
+]
